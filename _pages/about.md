@@ -36,4 +36,4 @@ I am also looking for self-motivated remote intern students starting at any time
 
 For more info
 ------
-More info about my published paper can be found in [Google Scholar Link] ().
+More info about my published paper can be found in [Google Scholar Link](https://scholar.google.com/citations?user=Dsgtn3AAAAAJ&hl=en).
