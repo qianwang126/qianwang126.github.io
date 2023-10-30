@@ -32,7 +32,7 @@ I am also looking for self-motivated remote intern students starting at any time
 "Interested in {position, e.g., Ph.D.} at {expected time, e.g., Fall 2024}”):
 - CV: Include your background, experiences, and future research interests.
 - Research: if possible attached 1-2 your published papers.
-
+- email to <ins>qian.wang.ucmerced@gmail.com</ins>
 1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
 1. Fork [this repository](https://github.com/academicpages/academicpages.github.io) by clicking the "fork" button in the top right. 
 1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
