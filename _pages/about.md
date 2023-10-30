@@ -19,14 +19,19 @@ In the past, I have conducted several projects on conventional hardware security
 
 For Prospective Students.
 ======
-•	PhD openings: I am looking for multiple self-motivated PhD students starting in 2024 Spring or Fall (application occurs in Dec 2023). Students with strong research background in security/ML system/Cryptography applications are preferred. If you are a prospective PhD student, I highly suggest reaching out to me early so that we can both check if there is a fit between us.
-•	Intern openings: I am also looking for self-motivated remote intern students starting at any time. Similarly, students with strong research background are preferred. I would prefer that you are interested in working with me as a PhD student in the long run.
-•	Email format: "Interested in {position, e.g., Ph.D.} at {expected time, e.g., Fall 2024}”):
+•	PhD openings: 
+------
+I am looking for multiple self-motivated PhD students starting in 2024 Spring or Fall (application occurs in Dec 2023). Students with strong research background in security/ML system/Cryptography applications are preferred. If you are a prospective PhD student, I highly suggest reaching out to me early so that we can both check if there is a fit between us.
+
+•	Intern openings: 
+------
+I am also looking for self-motivated remote intern students starting at any time. Similarly, students with strong research background are preferred. I would prefer that you are interested in working with me as a PhD student in the long run.
+
+•	Email format: 
+------
+"Interested in {position, e.g., Ph.D.} at {expected time, e.g., Fall 2024}”):
 - CV: Include your background, experiences, and future research interests.
 - Research: if possible attached 1-2 your published papers.
-
-  
-![image](https://github.com/qianwang126/qianwang126.github.io/assets/149326555/c48de144-52c1-4489-8610-e2ad57949a67)
 
 1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
 1. Fork [this repository](https://github.com/academicpages/academicpages.github.io) by clicking the "fork" button in the top right. 
