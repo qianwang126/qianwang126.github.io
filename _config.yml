@@ -81,14 +81,14 @@ analytics:
 # Site Author
 author:
   name             : "Dr. Qian Wang"
-  avatar           : "profile.png"
+  avatar           : "Qian.png"
   bio              : "Incoming Faculty at University of California, Merced; expert in Hardware Security"
   location         : "US"
   employer         :
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : "https://scholar.google.com/citations?user=Dsgtn3AAAAAJ&hl=en"
   email            :
-  researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
+  researchgate     :  "https://www.researchgate.net/profile/Qian-Wang-239"
   uri              :
   bitbucket        :
   codepen          :
@@ -96,7 +96,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "qianwang126"
+  github           : #"qianwang126"
   google_plus      :
   keybase          :
   instagram        :
@@ -176,7 +176,7 @@ kramdown:
 # Collections
 collections:
   teaching:
-    output: true
+    output: false
     permalink: /:collection/:path/
   publications:
     output: true
