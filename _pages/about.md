@@ -19,6 +19,7 @@ In the past, I have conducted several projects on conventional hardware security
 
 For Prospective Students.
 ======
+
 •	PhD openings: 
 ------
 I am looking for multiple self-motivated PhD students starting in 2024 Spring or Fall (application occurs in Dec 2023). Students with strong research background in security/ML system/Cryptography applications are preferred. If you are a prospective PhD student, I highly suggest reaching out to me early so that we can both check if there is a fit between us.
