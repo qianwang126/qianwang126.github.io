@@ -18,10 +18,11 @@ Education
 Work experience
 ======
 * 2019 --2023 Intel Corp 
-  * Lead research projects on Post-quantum crypto (PQC): Analysis of performance or resource requirements
-for PQC candidates; Investigate the PQC impacts on existing applications and protocols (e.g., changes needed
-to accommodate for specific network applications); Study Substantial improvements for the implementation of
-algorithms and conduct a security analysis of the properties of finalists.
+  * Lead research projects on Post-quantum crypto (PQC):
+      * Analysis of performance or resource requirements for PQC candidates;
+      * Investigate the PQC impacts on existing applications and protocols (e.g., changes needed to accommodate for specific network applications);
+      * Study Substantial improvements for the implementation of algorithms and conduct a security analysis of the properties of finalists.
+    
    * Lead project on security analysis of automotive Radar for autonomous driving applications; Conduct threat analysis
 on automotive Radars by identifying attacks and vulnerabilities; Conduct research on machine learning/deep
 learning-based mitigation targeted for automotive Radar.
@@ -30,7 +31,7 @@ in in-vehicle and vehicular networks.
 
 
 * Fall 2016: Research Assistant Robert Bosch LL
-  * Develop & implement key exchange protocol on Controller Area Network (CAN) bus system for in-vehicle communications of vehicle.
+  * Develop & implement key exchange protocol on Controller Area Network (CAN) bus system for in-vehicle communications of vehicle.
 
 
   
