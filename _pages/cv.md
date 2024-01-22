@@ -23,9 +23,9 @@ Work experience
       * Investigate the PQC impacts on existing applications and protocols (e.g., changes needed to accommodate for specific network applications);
       * Study Substantial improvements for the implementation of algorithms and conduct a security analysis of the properties of finalists.
     
-   * Lead project on security analysis of automotive Radar for autonomous driving applications; Conduct threat analysis
-on automotive Radars by identifying attacks and vulnerabilities; Conduct research on machine learning/deep
-learning-based mitigation targeted for automotive Radar.
+   * Lead project on security analysis of automotive Radar for autonomous driving applications;
+       * Conduct threat analysis on automotive Radars by identifying attacks and vulnerabilities;
+       * Conduct research on machine learning/deep learning-based mitigation targeted for automotive Radar.
    * Develop machine/deep learning operations on vehicular data for detecting/preventing/recovering from intrusions
 in in-vehicle and vehicular networks.
 
