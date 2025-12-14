@@ -1,5 +1,5 @@
 ---
-title: "EPQUIC Efficient Post-Quantum Cryptography for QUIC-Enabled Secure Communication"
+title: "GLSVLSI'25--EPQUIC Efficient Post-Quantum Cryptography for QUIC-Enabled Secure Communication"
 collection: publications
 # permalink: /publication/2025-06-30-epquic
 excerpt: 'This paper presents EPQUIC, an efficient post-quantum cryptographic framework for QUIC-enabled secure communication, enabling low-latency and quantum-resistant transport security.'
