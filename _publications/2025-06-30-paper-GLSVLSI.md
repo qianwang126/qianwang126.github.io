@@ -1,15 +1,15 @@
 ---
-title: "Paper Title Number 1"
+title: "EPQUIC Efficient Post-Quantum Cryptography for QUIC-Enabled Secure Communication"
 collection: publications
-permalink: /publication/2009-10-01-paper-title-number-1
-excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
-date: 2009-10-01
-venue: 'Journal 1'
-paperurl: 'http://academicpages.github.io/files/paper1.pdf'
-citation: 'Your Name, You. (2009). &quot;Paper Title Number 1.&quot; <i>Journal 1</i>. 1(1).'
+# permalink: /publication/2025-06-30-epquic
+excerpt: 'This paper presents EPQUIC, an efficient post-quantum cryptographic framework for QUIC-enabled secure communication, enabling low-latency and quantum-resistant transport security.'
+date: 2025-06-30
+venue: 'Proceedings of the Great Lakes Symposium on VLSI 2025'
+paperurl: 'https://dl.acm.org/doi/full/10.1145/3716368.3735199'
+citation: 'Ben Dong and Qian Wang. (2025). &quot;EPQUIC Efficient Post-Quantum Cryptography for QUIC-Enabled Secure Communication.&quot; <i>Proceedings of the Great Lakes Symposium on VLSI 2025</i>, pp. 141–146.'
 ---
-This paper is about the number 1. The number 2 is left for future work.
+This paper proposes EPQUIC, an efficient post-quantum cryptographic design tailored for QUIC-enabled secure communication. The work demonstrates how post-quantum primitives can be integrated into QUIC to achieve quantum-resistant security while maintaining low latency and practical deployability.
 
-[Download paper here](http://academicpages.github.io/files/paper1.pdf)
+[Download paper here](https://dl.acm.org/doi/full/10.1145/3716368.3735199)
 
-Recommended citation: Your Name, You. (2009). "Paper Title Number 1." <i>Journal 1</i>. 1(1).
+Recommended citation: Ben Dong and Qian Wang. (2025). "EPQUIC Efficient Post-Quantum Cryptography for QUIC-Enabled Secure Communication." <i>Proceedings of the Great Lakes Symposium on VLSI 2025</i>, pp. 141–146.
