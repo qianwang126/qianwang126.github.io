@@ -36,12 +36,32 @@
 <style>
         body { font-family: 'Inter', sans-serif; }
         .material-symbols-outlined { font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24; }
+        .banner-image { transition: opacity 1s ease-in-out; }
     </style>
 </head>
 <body class="bg-background-light dark:bg-background-dark text-text-light dark:text-text-dark font-body transition-colors duration-200 flex flex-col min-h-screen">
 <header class="relative w-full">
 <div class="relative h-64 md:h-80 bg-gray-900 overflow-hidden">
-<img alt="Sequoia Forest Landscape" class="absolute inset-0 w-full h-full object-cover opacity-70" src="https://images.unsplash.com/photo-1604537466158-719b1972feb8?w=1920&q=80"/>
+<img id="banner-img" alt="Sequoia Forest Landscape" class="absolute inset-0 w-full h-full object-cover opacity-70 banner-image" src="https://www.treehugger.com/thmb/Gg2RHpdgbdXOipGr-6OHRfyK1kI=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-604576095-235a5fa8df3c476dadba5290ab6c33e0.jpg"/>
+<script>
+    (function() {
+        const bannerImages = [
+            'https://www.treehugger.com/thmb/Gg2RHpdgbdXOipGr-6OHRfyK1kI=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-604576095-235a5fa8df3c476dadba5290ab6c33e0.jpg',
+            'https://static.scientificamerican.com/sciam/cache/file/A909B03F-809B-4BA7-B4A1448D6C2D25FC_source.jpg',
+            'https://www.nps.gov/seki/learn/nature/images/IMG_7381ac_caprio_r.jpg'
+        ];
+        let currentIndex = 0;
+        const img = document.getElementById('banner-img');
+        setInterval(function() {
+            currentIndex = (currentIndex + 1) % bannerImages.length;
+            img.style.opacity = '0';
+            setTimeout(function() {
+                img.src = bannerImages[currentIndex];
+                img.style.opacity = '0.7';
+            }, 500);
+        }, 5000);
+    })();
+</script>
 <div class="absolute inset-0 bg-gradient-to-t from-primary/90 via-primary/50 to-black/30"></div>
 <div class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-full flex flex-col justify-end pb-10">
 <h1 class="text-4xl md:text-5xl font-bold text-white mb-2 tracking-tight drop-shadow-lg">Sequoia Lab</h1>
@@ -106,13 +126,13 @@
 </div>
 </div>
 <div class="pt-4 border-t border-gray-200 dark:border-gray-700 grid grid-cols-1 md:grid-cols-2 gap-4">
-<a class="flex items-center gap-3 p-3 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors group" href="mailto:qwang@ucmerced.edu">
+<a class="flex items-center gap-3 p-3 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors group" href="mailto:qianwang@ucmerced.edu">
 <div class="w-10 h-10 rounded-full bg-primary/10 dark:bg-primary/30 flex items-center justify-center text-primary dark:text-blue-300 group-hover:bg-primary group-hover:text-white transition-colors">
 <span class="material-symbols-outlined">mail</span>
 </div>
 <div>
 <p class="text-xs text-gray-500 dark:text-gray-400 uppercase font-semibold">Email</p>
-<p class="text-sm font-medium text-primary dark:text-blue-300">qwang@ucmerced.edu</p>
+<p class="text-sm font-medium text-primary dark:text-blue-300">qianwang@ucmerced.edu</p>
 </div>
 </a>
 <a class="flex items-center gap-3 p-3 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors group" href="#">
@@ -139,7 +159,9 @@
 <div class="absolute top-0 right-0 w-20 h-20 bg-secondary/10 rounded-bl-full -mr-10 -mt-10 transition-transform group-hover:scale-110"></div>
 <div class="w-28 sm:w-32 flex-shrink-0 flex flex-col justify-start">
 <div class="aspect-square rounded-lg overflow-hidden bg-gray-200 dark:bg-gray-700 shadow-sm ring-1 ring-gray-900/5 dark:ring-white/10">
-<img alt="Portrait of Ben Dong" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" src="https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?w=300&h=300&fit=crop"/>
+<div class="w-full h-full bg-gray-300 dark:bg-gray-600 flex items-center justify-center">
+<span class="material-symbols-outlined text-4xl text-gray-500 dark:text-gray-400">person</span>
+</div>
 </div>
 </div>
 <div class="flex-grow flex flex-col justify-center relative z-10">
@@ -161,7 +183,9 @@
 <div class="absolute top-0 right-0 w-20 h-20 bg-secondary/10 rounded-bl-full -mr-10 -mt-10 transition-transform group-hover:scale-110"></div>
 <div class="w-28 sm:w-32 flex-shrink-0 flex flex-col justify-start">
 <div class="aspect-square rounded-lg overflow-hidden bg-gray-200 dark:bg-gray-700 shadow-sm ring-1 ring-gray-900/5 dark:ring-white/10">
-<img alt="Portrait of Hui Feng" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=300&h=300&fit=crop"/>
+<div class="w-full h-full bg-gray-300 dark:bg-gray-600 flex items-center justify-center">
+<span class="material-symbols-outlined text-4xl text-gray-500 dark:text-gray-400">person</span>
+</div>
 </div>
 </div>
 <div class="flex-grow flex flex-col justify-center relative z-10">
@@ -194,7 +218,7 @@
 </div>
 <div class="flex flex-col items-center md:items-end gap-2">
 <div class="flex gap-4 mb-2">
-<a class="w-8 h-8 rounded-full bg-white/10 flex items-center justify-center hover:bg-secondary hover:text-primary transition-colors" href="mailto:qwang@ucmerced.edu">
+<a class="w-8 h-8 rounded-full bg-white/10 flex items-center justify-center hover:bg-secondary hover:text-primary transition-colors" href="mailto:qianwang@ucmerced.edu">
 <span class="material-symbols-outlined text-sm">mail</span>
 </a>
 <a class="w-8 h-8 rounded-full bg-white/10 flex items-center justify-center hover:bg-secondary hover:text-primary transition-colors" href="#">
