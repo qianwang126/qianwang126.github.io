@@ -1,0 +1,29 @@
+name: Copy Sequoia Lab test branch
+
+on:
+  push:
+    paths:
+      - .github/workflows/copy-sequoia-test.yml
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  copy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out Sequoia Lab test branch
+        uses: actions/checkout@v4
+        with:
+          repository: SEQUOIA-LAB/sequoia-lab.github.io
+          ref: test
+          path: source
+
+      - name: Push to this repository's test branch
+        run: |
+          cd source
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git remote set-url origin "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git"
+          git push --force origin HEAD:test
