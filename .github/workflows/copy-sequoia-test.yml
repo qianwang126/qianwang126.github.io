@@ -27,3 +27,5 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git remote set-url origin "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git"
           git push --force origin HEAD:test
+
+# Triggered by Codex to mirror SEQUOIA-LAB/sequoia-lab.github.io@test.
