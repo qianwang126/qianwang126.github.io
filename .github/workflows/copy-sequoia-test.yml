@@ -19,6 +19,7 @@ jobs:
           repository: SEQUOIA-LAB/sequoia-lab.github.io
           ref: test
           path: source
+          fetch-depth: 0
 
       - name: Push to this repository's test branch
         run: |
